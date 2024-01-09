@@ -1,7 +1,18 @@
 ---
 title: "Challenge 2024"
+filters:
+  - social-share
+share:
+  permalink: "https://groundwater-spatial-modeling-challenge.github.io/challenge2024/"
+  description: "Groundwater Spatial Modeling Challenge 2024"
+  twitter: true
+  facebook: true
+  linkedin: true
+  email: true
+  mastodon: true
+  location: "before-body"
 ---
 
 {{< li fkmafinl trigger=loop speed=2.0 >}}
 
-This website will contain all necessary information about the **Groundwater Spatial Modeling Challenge 2024** which will start in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April.
+The **Groundwater Spatial Modeling Challenge 2024** will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April.

@@ -4,8 +4,6 @@ project:
 
 website:
   title: "Groundwater Spatial Modeling Challenge"
-  repo-url: https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024
-  repo-actions: [edit, issue]
   open-graph: true
   twitter-card: true
   navbar:
@@ -13,9 +11,12 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About
+    tools:
+      - icon: github
+        href: https://twitter.com
+
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true

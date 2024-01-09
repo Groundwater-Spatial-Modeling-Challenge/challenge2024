@@ -1,0 +1,18 @@
+---
+title: "About"
+---
+
+We are 4 organizers with a scientific background from different institutions. We all work or have worked on projects dealing with data-driven approaches for mapping groundwater parameters.
+
+1.  Ezra Haaf
+    -   Chalmers Tekniska Högskola: Gothenburg
+    -   {{< ai orcid color=#A5CD39 >}} [0000-0002-2746-0328](https://orcid.org/0000-0002-2746-0328)
+2.  Tanja Liesch, Dr.
+    -   Karlsruhe Institute of Technology
+    -   {{< ai orcid color=#A5CD39 >}} [0000-0001-8648-5333](https://orcid.org/0000-0001-8648-5333)
+3.  Maximilian Nölscher
+    -   Federal Institute for Geosciences and Natural Resources
+    -   {{< ai orcid color=#A5CD39 >}} [0000-0001-5606-1900](https://orcid.org/0000-0001-5606-1900)
+4.  Marc Ohmer, Dr.
+    -   Karlsruhe Institute of Technology
+    -   {{< ai orcid color=#A5CD39 >}} [0000-0002-2322-335X](https://orcid.org/0000-0002-2322-335X)

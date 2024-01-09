@@ -1,9 +1,16 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "We are 4 organizers with a scientific background from different institutions. We all work or have worked on projects dealing with data-driven approaches for mapping groundwater parameters.\n\nEzra Haaf\n\nChalmers Tekniska Högskola: Gothenburg\n 0000-0002-2746-0328\n\nTanja Liesch, Dr.\n\nKarlsruhe Institute of Technology\n 0000-0001-8648-5333\n\nMaximilian Nölscher\n\nFederal Institute for Geosciences and Natural Resources\n 0000-0001-5606-1900\n\nMarc Ohmer, Dr.\n\nKarlsruhe Institute of Technology\n 0000-0002-2322-335X"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Challenge 2024",
     "section": "",
-    "text": "This website will contain all necessary information about the Groundwater Spatial Modeling Challenge 2024 which will start in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April."
+    "text": "The Groundwater Spatial Modeling Challenge 2024 will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April."
   }
 ]
