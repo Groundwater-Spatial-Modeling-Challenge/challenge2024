@@ -13,6 +13,6 @@ share:
   location: "before-body"
 ---
 
-{{< li fkmafinl trigger=loop delay=5000 speed=1.0 >}} {{< li kfmfikzu trigger=loop delay=5000 speed=1.0 >}} {{< li yftyiewt trigger=loop delay=5000 speed=1.0 >}} {{< li hhclilyr trigger=loop delay=5000 speed=1.0 >}}
+{{< li fkmafinl trigger=loop delay=5000 speed=1.0 >}} 
 
 The **Groundwater Spatial Modeling Challenge 2024** will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April.
