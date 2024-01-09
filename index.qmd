@@ -1,7 +1,7 @@
 ---
-title: "Groundwater Spatial Modeling Challenge 2024"
+title: "Challenge 2024"
 ---
 
-## Quarto
+{{< li fkmafinl trigger=loop speed=2.0 >}}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This website will contain all necessary information about the **Groundwater Spatial Modeling Challenge 2024** which will start in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April.

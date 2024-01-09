@@ -3,13 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Groundwater Spatial Modeling Challenge 2024"
+  title: "Groundwater Spatial Modeling Challenge"
+  repo-url: https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: about.qmd
+        text: About
 format:
   html:
     theme: cosmo
