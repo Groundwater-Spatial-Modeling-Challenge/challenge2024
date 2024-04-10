@@ -7,22 +7,30 @@ This challenge is strongly inspired by the last years **Groundwater Time Series 
 > **Update 2024/04/10: Data is released and the challenge has started !**
 
 
-This repository contains all the information and materials for the Groundwater Time Series Modeling Challenge, [as 
-announced at the 2022 EGU General Assembly](https://doi.org/10.5194/egusphere-egu22-12580). We invite every 
-interested groundwater modeler to model the five different hydraulic head time series found in the data folder, and 
-send in their best possible simulated head time series. 
+This repository contains all the information and materials for the Groundwater Spatial Modeling Challenge, [as 
+announced at the 2024 EGU General Assembly](https://meetingorganizer.copernicus.org/EGU24/EGU24-10386.html).
+We would like to invite every interested scientist or modeler to participate in this contest and submit the results of their best-performing models.
+In this way, we not only want to learn from each other, but also bring shared experience and creativity to this still very small community.
 
-**Organisers:** R.A. Collenteur (Eawag), E. Haaf (Chalmers), T. Liesch & A. Wunsch (KIT), and M. Bakker 
-(TU Delft)
+**Organisers:**  E. Haaf (Chalmers), T. Liesch & M. Ohmer (KIT), M. Nölscher (BGR)
+
 
 ## Background & Objectives
 
-Different types of models can be applied to model groundwater level time series, ranging from purely statistical 
-models (black-box), through lumped conceptual models (grey-box), to process-based models (white-box). Traditionally, 
-physically based, distributed models are predominantly used to solve groundwater problems. In recent years, the use 
-of grey- and black-box models has been receiving increased attention. With this challenge, we want to showcase the 
-diversity of models that can be applied to solve groundwater problems, and systematically asses their differences and 
-performances.
+Spatially continuous information (aka. maps) about groundwater related parameters is a crucial pre-condition for many tasks in water management and ecological questions.
+However, in hydrogeology, we often lack such reliable datasets due to the fact that observed data comes almost always from observation wells which reflect only a very narrow area around it. Based on such observed data, spatially continuous datasets can be then generated using deterministic methods like Voronoi-polygons or Inverse-Distance-Weighting or geostatistical methods like the Krigging-family for inter- and extrapolating over space. In the recent two decades machine learning approaches have been increasingly studied and applied for this task. Compared to time series modeling of groundwater levels, there has not yet been a comparable breakthrough in mapping/regionalizing groundwater related parameters.
+Whith this challenge, we want to 
+
+- put more focus on this matter of research,
+- grow the community,
+- increase discussion,
+- showcase the diversity of approaches and evaluate their capabilities and
+- learn from each others experience and creativity.
+
+In order to get a tiny bit closer to these goals, this challenge is about modeling nitrate concentrations (including the prediction intervals) in shallow aquifers in southwest Germany using a broad range of geophysical predictor variables aka. features. Any model is welcome. It is not restricted to machine learning models.
+
+In the following, all necessary information on participating in the challenge is explained.
+
 
 ## Input and hydraulic head data
 
@@ -37,11 +45,13 @@ variables in the model.
 
 ## Modeling rules
 
-- Participants may use any type of model.
-- The groundwater time series themselves may not be used as model input.
+- Anyone interested can participate as single person or as team
+- Participants may use any type of model
+- The groundwater time series themselves may not be used as model input
 - The modeling workflow must be reproducible, preferably through the use of scripts, but otherwise described in 
-  enough detail to reproduce the results.
+  enough detail to reproduce the results. This requires freely available software, preferably open source
 - Supplementary model data must be described in sufficient detail and submitted with model outputs.
+- Submission of model results are done via a github pull request
 
 ## Model outputs and deliverables
 
