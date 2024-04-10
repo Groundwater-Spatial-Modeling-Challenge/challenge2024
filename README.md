@@ -32,22 +32,25 @@ In order to get a tiny bit closer to these goals, this challenge is about modeli
 In the following, all necessary information on participating in the challenge is explained.
 
 
-## Input and hydraulic head data
+## Inputa data (features and target variable) 
 
-Five hydraulic head time series were selected for this challenge. The monitoring wells are located in sedimentary 
-aquifers, but in different climatological and hydrogeological settings. Depending on the location. different input 
-time series are available to model the heads. Please find all data and descriptions in the [data folder](https://github.com/gwmodeling/challenge/tree/main/data).
+We split the overall dataset with approx. 1800 samples/locations into a training and a test set using a proportion of 80% for training.
+This dataset has contains 3 types of columns:
 
-It is permitted to use any other publicly available data (e.g., soil maps) to construct the model. The use of other 
-meteorological data that that provided is not permitted, to ensure that differences between the models are not the 
-result of the meteorological input data. It is also not permitted to use the hydraulic heads as explanatory 
-variables in the model.
+- one id column: this column is only for matching the the predictions with the solutions later on
+- one target column containing the nitrate concentrations: this column name has the prefix 'target_'
+- many feature columns containing the explanatory variables/predictors: these columns have the prefix 'feature_'
+
+> [!TIP]
+> Please find all data and descriptions in the [data folder](https://github.com/gwmodeling/challenge/tree/main/data).
+
+As we do not provide the locations coordinates, it is not possible to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
 
 ## Modeling rules
 
 - Anyone interested can participate as single person or as team
 - Participants may use any type of model
-- The groundwater time series themselves may not be used as model input
+- The target variable namely the nitrate concentrations must not be used as predictor/feature. 
 - The modeling workflow must be reproducible, preferably through the use of scripts, but otherwise described in 
   enough detail to reproduce the results. This requires freely available software, preferably open source
 - Supplementary model data must be described in sufficient detail and submitted with model outputs.
@@ -57,12 +60,11 @@ variables in the model.
 
 The model is expected to compute: 
 
--	The prediction of the hydraulic head for the dates found in the submission files in the  'team_example' folder, 
-    including the 95% prediction interval of the hydraulic head at a daily time interval over the entire 
-     calibration and validation period (see data folders for specific periods for each location).
+-	The prediction of the nitrate concentrations for the location ids in the submission files in the  'team_example' folder. 
+- Optional: if the method/model allows the calculation of prediction intervals, the 95% prediction interval of the nitrate concentration should be added as separate columns for each location id as shown in the example file.
 
 Forms that can be used to submit the results are provided in the [submissions folder](https://github.com/gwmodeling/challenge/tree/main/submissions). 
-There you can also find more detailed on what to submit.
+There you can also find more details on what to submit.
 
 ## Model evaluation
 
@@ -72,12 +74,13 @@ released after the deadline date.
 
 ## Deadline
 
-The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
+> [!WARNING]
+> The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
 
 ## Participation & Submission
 If you intend to participate, [please open a GitHub Issue for your team](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/issues), such that we can track the participating teams.
 
-Participant can submit their model results as a Pull Request to this Repository, adding a folder with their results 
+Participants can submit their model results as a Pull Request to this Repository, adding a folder with their results 
 in the 'submissions' folder. The model results must be submitted in a way that they are reproducible, either through 
 the use of scripts (preferred) or detailed description of the modeling process. See the [submissions folder](https://github.com/gwmodeling/challenge/tree/main/submissions) for a more detailed description on how and what to submit.
 
@@ -86,7 +89,7 @@ After the challenge we intend to write an article to submit to a peer-reviewed j
 ## Questions/ Comments ?
 
 To make sure everyone has access to the same information we ask you to put any questions that are of general 
-interest to all participants in the [GitHub Discussion forum](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/discussions).
+interest to all participants in the [GitHub Discussion Forum](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/discussions).
 
 
 
