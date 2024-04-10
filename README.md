@@ -1,9 +1,11 @@
 # The Groundwater Spatial Modeling Challenge 2024
 
-> [!NOTE]
-> sdfsdfs
+This challenge is strongly inspired by the last years **Groundwater Time Series Modeling Challenge** organized by R.A. Collenteur (Eawag) et al. and can be considered as an extension to the spatial domain.
 
-**Update 2022/09/19: Data is released and the challenge has started !**
+
+> [!NOTE]
+> **Update 2024/04/10: Data is released and the challenge has started !**
+
 
 This repository contains all the information and materials for the Groundwater Time Series Modeling Challenge, [as 
 announced at the 2022 EGU General Assembly](https://doi.org/10.5194/egusphere-egu22-12580). We invite every 
