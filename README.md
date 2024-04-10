@@ -42,9 +42,10 @@ This dataset has contains 3 types of columns:
 - many feature columns containing the explanatory variables/predictors: these columns have the prefix 'feature_'
 
 > [!TIP]
+> Please find all meta data about all features in this [table]()
 > Please find all data and descriptions in the [data folder](https://github.com/gwmodeling/challenge/tree/main/data).
 
-As we do not provide the locations coordinates, it is not possible to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
+As we do not provide the coordinates of the samples/locations, it is not possible or allowed to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
 
 ## Modeling rules
 
