@@ -1,6 +1,7 @@
 # The Groundwater Spatial Modeling Challenge 2024
 
 > [!NOTE]
+> sdfsdfs
 
 **Update 2022/09/19: Data is released and the challenge has started !**
 
