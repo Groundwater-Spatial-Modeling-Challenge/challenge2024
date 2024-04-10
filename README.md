@@ -66,16 +66,16 @@ There you can also find more detailed on what to submit.
 
 ## Model evaluation
 
-The models will be evaluated using several goodness-of-fit metrics and groundwater signatures, computed for both the 
-calibration and the validation period. The data for the validation period is not make public yet and will be 
-released after the challenge ended.
+The models will be evaluated using several performance metrics, computed for both the 
+training and the test split. The data solutions for the test split are not public yet and will be 
+released after the deadline date.
 
 ## Deadline
 
-The deadline for the challenge is **31/12/2022. Late submission are allowed untill 5th of January 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2023.
+The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
 
 ## Participation & Submission
-If you intend to participate, [please open a GitHub Issue for your team](https://github.com/gwmodeling/challenge/issues), such that we can track the participating teams.
+If you intend to participate, [please open a GitHub Issue for your team](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/issues), such that we can track the participating teams.
 
 Participant can submit their model results as a Pull Request to this Repository, adding a folder with their results 
 in the 'submissions' folder. The model results must be submitted in a way that they are reproducible, either through 
@@ -86,7 +86,7 @@ After the challenge we intend to write an article to submit to a peer-reviewed j
 ## Questions/ Comments ?
 
 To make sure everyone has access to the same information we ask you to put any questions that are of general 
-interest to all participants in the [GitHub Discussion forum](https://github.com/gwmodeling/challenge/discussions).
+interest to all participants in the [GitHub Discussion forum](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/discussions).
 
 
 
