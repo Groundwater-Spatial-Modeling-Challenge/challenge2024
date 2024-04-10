@@ -4,7 +4,7 @@ This challenge is strongly inspired by the last years **Groundwater Time Series 
 
 
 > [!NOTE]
-> **Update 2024/04/10: Data is released and the challenge has started !**
+> **Update 2024/04/10: Data is about to be released in the next few days until EGU2024 conference starts !**
 
 
 This repository contains all the information and materials for the Groundwater Spatial Modeling Challenge, [as 
