@@ -12,5 +12,12 @@
     "title": "Groundwater Spatial Modeling Challenge 2024",
     "section": "",
     "text": "2024-04-10\nThe Groundwater Spatial Modeling Challenge 2024 is about to start in the next few days and all necessecary data will be available in this github repository\n\n\n\n2024-01-10\nThe Groundwater Spatial Modeling Challenge 2024 will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April."
+  },
+  {
+    "objectID": "features.html",
+    "href": "features.html",
+    "title": "Features",
+    "section": "",
+    "text": "The following table provides relevant information about the 209 features. Either all or an arbitrary subset of features can be used for modeling.\n\n\n\n\n\n\nTip\n\n\n\nThe following features are available for multiple spatial scales:\n\nfeat_topo_eumohp_<feature name>(1, 2, 3, 4, 5)\nfeat_topo_amatulli_<feature name>(1km, 5km, 10km, 50km, 100km)<suffix>\n\nSo please be aware of that, when subsetting features!"
   }
 ]
