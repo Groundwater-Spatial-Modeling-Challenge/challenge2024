@@ -1,0 +1,36 @@
+---
+title: "Features"
+---
+
+```{r}
+#| echo: FALSE
+#| output: FALSE
+
+library(readr)
+library(dplyr)
+library(DT)
+
+metadata_features <- read_csv("features.csv")
+
+```
+
+```{r}
+#| echo: FALSE
+#| out-width: '1000px'
+
+metadata_features |>
+  select(-`data source local`) |>
+  mutate(`data source` = if_else(is.na(`data source`), "", stringr::str_glue("<a href='{`data source`}'>{`data source`}</a>"))) |> 
+  datatable(
+    width = "3000px",
+    filter = "top",
+    options = list(
+      scrollY = "800px",
+      lengthMenu = list(c(25, 100, -1), c("25", "100", "All")),
+      pageLength = nrow(metadata_features)
+    ),
+    escape = FALSE
+  )
+```
+
+

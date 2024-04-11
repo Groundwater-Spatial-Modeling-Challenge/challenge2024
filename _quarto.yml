@@ -10,6 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: features.qmd
       - href: about.qmd
     tools:
       - icon: github
@@ -18,5 +19,5 @@ website:
 format:
   html:
     theme: sandstone
-    css: styles.css
     toc: true
+    page-layout: full
