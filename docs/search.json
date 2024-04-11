@@ -7,17 +7,17 @@
     "text": "We are 4 organizers with a scientific background from different institutions. We all work or have worked on projects dealing with data-driven approaches for mapping groundwater parameters.\n\nEzra Haaf\n\nChalmers Tekniska Högskola: Gothenburg\n 0000-0002-2746-0328\n\nTanja Liesch, Dr.\n\nKarlsruhe Institute of Technology\n 0000-0001-8648-5333\n\nMaximilian Nölscher\n\nFederal Institute for Geosciences and Natural Resources\n 0000-0001-5606-1900\n\nMarc Ohmer, Dr.\n\nKarlsruhe Institute of Technology\n 0000-0002-2322-335X"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Groundwater Spatial Modeling Challenge 2024",
-    "section": "",
-    "text": "2024-04-10\nThe Groundwater Spatial Modeling Challenge 2024 is about to start in the next few days and all necessecary data will be available in this github repository\n\n\n\n2024-01-10\nThe Groundwater Spatial Modeling Challenge 2024 will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April."
-  },
-  {
     "objectID": "features.html",
     "href": "features.html",
     "title": "Features",
     "section": "",
-    "text": "The following table provides relevant information about the 209 features. Either all or an arbitrary subset of features can be used for modeling.\n\n\n\n\n\n\nTip\n\n\n\nThe following features are available for multiple spatial scales:\n\nfeat_topo_eumohp_<feature name>(1, 2, 3, 4, 5)\nfeat_topo_amatulli_<feature name>(1km, 5km, 10km, 50km, 100km)<suffix>\n\nSo please be aware of that, when subsetting features!"
+    "text": "The following table provides relevant information about the 208 features. Either all or an arbitrary subset of features can be used for modeling.\n\n\n\n\n\n\nTip\n\n\n\nThe following features are available for multiple spatial scales:\n\nfeat_topo_eumohp_<feature name>(1, 2, 3, 4, 5)\nfeat_topo_amatulli_<feature name>(1km, 5km, 10km, 50km, 100km)<suffix>\n\nSo please be aware of that, when subsetting features!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Groundwater Spatial Modeling Challenge 2024",
+    "section": "",
+    "text": "2024-04-15\nThe Groundwater Spatial Modeling Challenge 2024 officially starts today. If you are interested in participating, please check out this github repository in this github repository for all relevant information.\n\n\n\n2024-04-10\nThe Groundwater Spatial Modeling Challenge 2024 is about to start in the next few days and all necessecary data will be available in this github repository\n\n\n\n2024-01-10\nThe Groundwater Spatial Modeling Challenge 2024 will be announced and started in April 2024 together with the EGU conference in Vienna. Therefore, further information will follow soon and latest in April."
   }
 ]

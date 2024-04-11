@@ -17,6 +17,12 @@ share:
 
 ------------------------------------------------------------------------
 
+# 2024-04-15
+
+The **Groundwater Spatial Modeling Challenge 2024** officially starts today. If you are interested in participating, please check out this github repository [in this github repository](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024) for all relevant information.
+
+------------------------------------------------------------------------
+
 # 2024-04-10
 
 The **Groundwater Spatial Modeling Challenge 2024** is about to start in the next few days and all necessecary data will be available [in this github repository](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024)
