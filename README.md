@@ -83,7 +83,7 @@ If you intend to participate, [please open a GitHub Issue for your team](https:/
 
 Participants can submit their model results as a Pull Request to this Repository, adding a folder with their results 
 in the 'submissions' folder. The model results must be submitted in a way that they are reproducible, either through 
-the use of scripts (preferred) or detailed description of the modeling process. See the [submissions folder](https://github.com/gwmodeling/challenge/tree/main/submissions) for a more detailed description on how and what to submit.
+the use of scripts (preferred) or detailed description of the modeling process. See the [submissions folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/submissions) for a more detailed description on how and what to submit.
 
 After the challenge we intend to write an article to submit to a peer-reviewed journal with all the organisers and participants.
 
