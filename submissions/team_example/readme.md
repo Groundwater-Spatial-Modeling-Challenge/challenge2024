@@ -1,8 +1,8 @@
 # Team Example
 ## Author(s)
 
-- Firstname Lastname (Affiliation): [ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-- Firstname Lastname (Affiliation): [ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+- Firstname Lastname (Affiliation): [https://orcid.org/XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+- Firstname Lastname (Affiliation): [https://orcid.org/XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
 
 ## Feature engineering description
 
