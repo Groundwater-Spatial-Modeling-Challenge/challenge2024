@@ -42,8 +42,8 @@ This dataset has contains 3 types of columns:
 - many feature columns containing the explanatory variables/predictors: these columns have the prefix 'feature_'
 
 > [!TIP]
-> Please find all meta data about all features in this [table]()
-> Please find all data and descriptions in the [data folder](https://github.com/gwmodeling/challenge/tree/main/data).
+> Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html)
+> Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
 
 As we do not provide the coordinates of the samples/locations, it is not possible or allowed to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
 
@@ -64,7 +64,7 @@ The model is expected to compute:
 -	The prediction of the nitrate concentrations for the location ids in the submission files in the  'team_example' folder. 
 - Optional: if the method/model allows the calculation of prediction intervals, the 95% prediction interval of the nitrate concentration should be added as separate columns for each location id as shown in the example file.
 
-Forms that can be used to submit the results are provided in the [submissions folder](https://github.com/gwmodeling/challenge/tree/main/submissions). 
+Forms that can be used to submit the results are provided in the [submissions folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/submissions). 
 There you can also find more details on what to submit.
 
 ## Model evaluation
