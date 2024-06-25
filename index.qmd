@@ -13,12 +13,13 @@ share:
   location: "before-body"
 ---
 
-{{< li fkmafinl trigger=loop delay=5000 speed=1.0 >}}
+![Elephant](){fig-align="center", fig-alt="A drawing of an elephant."}
 
 ------------------------------------------------------------------------
 
 # 2024-04-15
 
+{{< li fkmafinl trigger=loop delay=5000 speed=1.0 >}}
 The **Groundwater Spatial Modeling Challenge 2024** officially starts today. If you are interested in participating, please check out this github repository [in this github repository](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024) for all relevant information.
 
 ------------------------------------------------------------------------
