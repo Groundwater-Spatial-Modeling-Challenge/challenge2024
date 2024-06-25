@@ -2,3 +2,6 @@
 .idea
 .Rproj.user
 challenge2024.Rproj
+_quarto.yml
+about.qmd
+*.html

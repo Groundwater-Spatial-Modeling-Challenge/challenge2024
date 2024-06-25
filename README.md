@@ -45,6 +45,10 @@ This dataset has contains 3 types of columns:
 > Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html)
 > Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
 
+> [!WARNING]
+> <p xmlns:cc="http://creativecommons.org/ns#" >The data is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p> 
+
+
 As we do not provide the coordinates of the samples/locations, it is not possible or allowed to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
 
 ## Modeling rules
