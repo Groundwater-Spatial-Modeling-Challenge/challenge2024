@@ -66,7 +66,8 @@ The models will be evaluated using several performance metrics, computed for bot
 
 ## Deadline
 
-> \[!WARNING\] The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
+> \[!WARNING\] 
+> The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
 
 ## Participation & Submission
 
