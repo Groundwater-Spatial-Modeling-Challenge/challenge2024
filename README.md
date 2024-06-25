@@ -2,6 +2,8 @@
 
 This challenge is strongly inspired by the last years [**Groundwater Time Series Modeling Challenge**](https://github.com/gwmodeling/challenge) organized by R.A. Collenteur (Eawag) et al. and can be considered as an extension to the spatial domain.
 
+> \[!NOTE\] **Update 2024/04/10: Data is about to be released in the next few days until EGU2024 conference starts !**
+
 This repository contains all the information and materials for the Groundwater Spatial Modeling Challenge, [as announced at the 2024 EGU General Assembly](https://meetingorganizer.copernicus.org/EGU24/EGU24-10386.html). We would like to invite every interested scientist or modeler to participate in this contest and submit the results of their best-performing models. In this way, we not only want to learn from each other, but also bring shared experience and creativity to this still very small community.
 
 **Organisers:** E. Haaf (Chalmers), T. Liesch & M. Ohmer (KIT), M. Nölscher (BGR)
@@ -28,16 +30,15 @@ We split the overall dataset with approx. 1800 samples/locations into a training
 -   one target column containing the nitrate concentrations: this column name has the prefix 'target\_'
 -   many feature columns containing the explanatory variables/predictors: these columns have the prefix 'feature\_'
 
-::: {.callout-tip}
-Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html) Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
-:::
+> \[!TIP\] Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html) Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
 
-
-::: {.callout-warning}
-<p xmlns:cc="http://creativecommons.org/ns#">
-The data is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a>
-</p>
-:::
+> \[!WARNING\]
+>
+> <p xmlns:cc="http://creativecommons.org/ns#">
+>
+> The data is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a>
+>
+> </p>
 
 As we do not provide the coordinates of the samples/locations, it is not possible or allowed to add other datasets as features. But it is of course allowed to only use some of the features or calculate new features from the provided ones. Any kind of feature engineering (e.g. encoding of nominal features) is allowed. It is not permitted to use the nitrate concentration as feature itself.
 
@@ -65,9 +66,7 @@ The models will be evaluated using several performance metrics, computed for bot
 
 ## Deadline
 
-::: {.callout-warning}
-The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
-:::
+> \[!WARNING\] The deadline for the challenge is **31/12/2024 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
 
 ## Participation & Submission
 
