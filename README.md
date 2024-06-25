@@ -2,7 +2,8 @@
 
 This challenge is strongly inspired by the last years [**Groundwater Time Series Modeling Challenge**](https://github.com/gwmodeling/challenge) organized by R.A. Collenteur (Eawag) et al. and can be considered as an extension to the spatial domain.
 
-> \[!NOTE\] **Update 2024/04/10: Data is about to be released in the next few days until EGU2024 conference starts !**
+> \[!NOTE\] 
+> **Update 2024/04/10: Data is about to be released in the next few days until EGU2024 conference starts !**
 
 This repository contains all the information and materials for the Groundwater Spatial Modeling Challenge, [as announced at the 2024 EGU General Assembly](https://meetingorganizer.copernicus.org/EGU24/EGU24-10386.html). We would like to invite every interested scientist or modeler to participate in this contest and submit the results of their best-performing models. In this way, we not only want to learn from each other, but also bring shared experience and creativity to this still very small community.
 
@@ -30,7 +31,8 @@ We split the overall dataset with approx. 1800 samples/locations into a training
 -   one target column containing the nitrate concentrations: this column name has the prefix 'target\_'
 -   many feature columns containing the explanatory variables/predictors: these columns have the prefix 'feature\_'
 
-> \[!TIP\] Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html) Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
+> \[!TIP\] 
+> Please find all meta data about all features in this [table](https://groundwater-spatial-modeling-challenge.github.io/challenge2024/features.html) Please find all data and descriptions in the [data folder](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/tree/main/data).
 
 > \[!WARNING\]
 >
