@@ -1,9 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
-
 # The Groundwater Spatial Modeling Challenge 2024
 
 This challenge is strongly inspired by the last years [**Groundwater
