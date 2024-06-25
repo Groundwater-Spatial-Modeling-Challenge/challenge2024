@@ -15,6 +15,14 @@ share:
 
 ![](img/gsmc_logo_hex.svg){fig-align="center" width=30% fig-alt="Logo of the Groundwater Spatial Modelling Challenge, shaped like a hexagon with a grey background. Inside the hexagon are schematic representations of nitrate molecules and maps entering a funnel from above. Below the funnel, a map on the ground is being colored by orange drops falling from the funnel, symbolizing the creation of spatial data or maps using multiple input datasets."}
 
+<br>
+<br>
+
+<div class="blinking-button-container">
+  <a href="https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024" class="blinking-button">Click here for the github repo to participate</a>
+</div>
+
+
 ------------------------------------------------------------------------
 
 # 2024-04-15

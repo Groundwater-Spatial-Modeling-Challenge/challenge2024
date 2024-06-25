@@ -1,3 +1,26 @@
 img {
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.4));
 }
+
+.blinking-button-container {
+  text-align: center; /* Center the button */
+  margin-top: 20px; /* Add some top margin */
+}
+
+.blinking-button {
+  display: inline-block;
+  padding: 20px 40px; /* Make the button "fat" */
+  font-size: 24px; /* Increase the font size */
+  background-color: #C5C6C7; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+  animation: blink 2s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
