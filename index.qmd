@@ -29,7 +29,7 @@ share:
 # 2024-12-18
 
 {{< li sgtmgpft trigger=loop delay=5000 speed=1.0 >}}
-We extended the deadline of the **Groundwater Spatial Modeling Challenge 2024** to the **January 15, 2025**.
+We extended the deadline of the **Groundwater Spatial Modeling Challenge 2024** to **January 15, 2025**.
 So this is plenty of time to still participate and get started. We are looking forward to your contributions!!!
 
 ------------------------------------------------------------------------
