@@ -1,7 +1,9 @@
-# Team Example
-## Author(s)
+# Team GEUS
+## Author
 
 - Julian Koch (GEUS): https://orcid.org/0000-0002-7732-3436
+
+All code for reproducing the results can be found in the .py file.
 
 ## Feature engineering description
 
