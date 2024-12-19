@@ -1,37 +1,65 @@
 # Team Example
 ## Author(s)
 
-- Firstname Lastname (Affiliation): [https://orcid.org/XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-- Firstname Lastname (Affiliation): [https://orcid.org/XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+- Julian Koch (GEUS): https://orcid.org/0000-0002-7732-3436
 
 ## Feature engineering description
 
-Here comes a short description of what you have done regarding subsetting, dimensionality reduction, embedding, encoding and generation of new features etc.
-You can also provide a list of features that you have used in the end for training your model.
+There were some inconsistencies in the covariate names between prediction and train/test datasets. Prediction covariate names were overwritten to ensure consistency.
+
+Categorical Encoding:
+
+A list of categorical covariates was loaded from nominal.txt.
+Each categorical covariate was converted to integer codes to make them compatible with the model.
+Consistent category mappings were applied across the train, test, and prediction datasets to maintain uniform encoding.
 
 ## Training strategy
 
-Here your can briefly describe your validation strategy (cross-validation (CV), repeated CV, ...) and wether you did some kind of hyperparameter optimization etc.
+Validation Strategy
+To assess model performance, a 5-fold cross-validation (CV) strategy was used. The KFold method from sklearn.model_selection was employed
+
+Hyperparameter Optimization
+Hyperparameter tuning was performed using Grid Search Cross-Validation with the GridSearchCV function from sklearn.model_selection. The search was conducted over a predefined grid of hyperparameters for the LightGBM model.
 
 ## Model description
 
-Here comes a short description of the model or the model ensemble that you have used.
+LightGBM Regression Model
+The primary model used in this project is a LightGBM (Light Gradient Boosting Machine) regression model. LightGBM is a gradient boosting.
+
+Loss Function:
+
+Main Model: Uses the Mean Squared Error (MSE) loss function for central prediction.
+Quantile Models: Use the Quantile Loss function to estimate the 2.5th and 97.5th percentiles for uncertainty quantification.
+
+Hyperparameters:
+The final model was configured with hyperparameters optimized through Grid Search Cross-Validation. Notable hyperparameters include:
+
+num_leaves: 16 (controls the complexity of the trees)
+learning_rate: 0.005 (step size for each boosting iteration)
+n_iter: 1024 (number of boosting iterations)
+max_depth: -1 (unrestricted tree depth)
+colsample_bytree: 0.6 (fraction of features used for each tree)
+subsample: 0.6 (fraction of data used for each boosting iteration)
+num_threads: 15 (parallel processing for faster training)
+
+Final Training
+Using the best-found hyperparameters, the final models were trained on the entire training dataset.
+
+Uncertainty Quantification:
+To provide prediction intervals, two additional LightGBM models were trained:
+
+Lower-Bound Model: Predicts the 2.5th percentile (lower confidence bound).
+Upper-Bound Model: Predicts the 97.5th percentile (upper confidence bound).
 
 ## Software
 
-Here you can describe the software used for modeling (programming language, libraries/packages, versions).
-If you developed your modeling on a code hosting platform like github, you can also put a link to the relevant repository or add your scripts to the submission.
-
+Python 3.9
+Regressoin model applied: https://lightgbm.readthedocs.io/en/stable/
 
 ## Estimation of effort
 
-Here we ask you to make an honest :-) estimation of your develompent time, calibration time and time to calculate the predictions for prediction.csv.
-
 | Development time (hrs) | Calibration time (s) |  Prediction time (s) | 
 |------------------------|----------------------|----------------------|
-| ~  X                 | X   | X   |
+| ~  4                 | 3600   | 60   |
 
-## Additional information
-
-Here you can add any comment or additional information.
 
