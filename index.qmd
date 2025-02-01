@@ -26,6 +26,14 @@ share:
 
 ------------------------------------------------------------------------
 
+# 2024-02-01
+
+{{< li wyihqwpi trigger=loop delay=5000 speed=1.0 >}}
+As we aim to include minimum 5 Teams in the challenge, we have -- for the final time -- extended the deadline of the **Groundwater Spatial Modeling Challenge 2024** to **July 15, 2025**.
+Contributions received by the beginning of April will be included in the poster presentation at the EGU2025 in Vienna with preliminary results. However, the challenge will run until the deadline in July. So there is still enough time to take part and get started. We look forward to your contributions!!!
+
+------------------------------------------------------------------------
+
 # 2024-12-18
 
 {{< li sgtmgpft trigger=loop delay=5000 speed=1.0 >}}
