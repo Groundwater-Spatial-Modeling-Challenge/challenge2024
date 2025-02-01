@@ -66,7 +66,7 @@ The models will be evaluated using several performance metrics, computed for bot
 ## Deadline
 
 > \[!WARNING\] 
-> The extended deadline for the challenge is now **15/01/2025 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
+> The extended deadline for the challenge is now **15/07/2025 24:00 CET.** Please make sure to submit before this date. We plan to share the results of this challenge at the EGU General Assembly 2025.
 
 ## Participation & Submission
 
