@@ -3,7 +3,7 @@
 This folder contains the folders with the model results from the different participating teams. To submit your model 
 results, please: 
 
-1. [fork](https://github.com/gwmodeling/challenge/fork) this repository;
+1. [fork](https://github.com/Groundwater-Spatial-Modeling-Challenge/challenge2024/fork) this repository;
 2. Copy the 'team_example' folder and rename (e.g., 'team_XX');
 3. Change the files in the folder;
 4. Create a [Pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to the original repository to submit your model.
